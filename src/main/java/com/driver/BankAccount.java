@@ -52,4 +52,20 @@ public class BankAccount {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getMinBalance() {
+        return minBalance;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMinBalance(double minBalance) {
+        this.minBalance = minBalance;
+    }
 }
